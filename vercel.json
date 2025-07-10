@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd cobalt && pnpm install --frozen-lockfile && pnpm --filter @imput/cobalt-web build",
+  "outputDirectory": "cobalt/web/build",
+  "installCommand": "cd cobalt && pnpm install --frozen-lockfile",
+  "framework": null,
+  "nodeVersion": "20.x"
+}
